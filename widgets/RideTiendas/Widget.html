@@ -1,0 +1,71 @@
+<div>
+    <div>
+        <!-- <h1>Selecciona tu posición en el mapa</h1>
+        <p>Zoom</p><input id="zoom" value="">
+        <button data-dojo-attach-event="onclick:orig">Origen</button> -->
+
+        <h2>Selecciona los comercios para mostrar</h2>
+        <!-- <input id="comer" value=""> -->
+        <!--<form action="" data-dojo-attach-event="onchange:onOpen" style="display: block;">-->
+        <form action="" style="display: block;">
+            <!-- <input type="checkbox" name="comer" value="1">Carnicería
+            <br>
+            <input type="checkbox" name="comer" value="2">Congelados
+            <br>
+            <input type="checkbox" name="comer" value="3">Frutería
+            <br>
+            <input type="checkbox" name="comer" value="4">Frutos secos
+            <br>
+            <input type="checkbox" name="comer" value="5">Lechería
+            <br>
+            <input type="checkbox" name="comer" value="6">Panadería
+            <br>
+            <input type="checkbox" name="comer" value="7">Pescadería
+            <br>
+            <input type="checkbox" name="comer" value="8">Salazones -->
+
+            <button type="button" data-dojo-attach-event="onclick:carnes">Carnicería</button> 
+            <button type="button" data-dojo-attach-event="onclick:congelado">Congelados</button> 
+            <button type="button" data-dojo-attach-event="onclick:frutas">Fruterías</button> 
+            <button type="button" data-dojo-attach-event="onclick:secos">Frutos Secos</button> 
+            <button type="button" data-dojo-attach-event="onclick:leche">Lechería</button> 
+            <button type="button" data-dojo-attach-event="onclick:pan">Panadería</button> 
+            <button type="button" data-dojo-attach-event="onclick:pescao">Pescadería</button> 
+            <button type="button" data-dojo-attach-event="onclick:sal">Salazones</button> 
+
+            <h2>Selecciona tiempo máximo</h2>
+            <select name="time" id="time">
+                <option value="1">1 min</option>
+                <option value="2">2 min</option>
+                <option value="3">3 min</option>
+                <option value="4">4 min</option>
+                <option value="5">5 min</option>
+                <option value="10">10 min</option>
+                <option value="15">15 min</option>
+                <option value="20">20 min</option>
+                <!-- <option value="500">500 min</option> -->
+            </select>
+            <br>
+            <h2>Elije tu bici</h2>
+            <select name="mode" id="bici">
+                <option value="1">Bici clásica</option>
+                <option value="2">Bici electrica</option>
+            </select>
+            <br>
+            <br>
+            <button type="button" data-dojo-attach-event="onclick:paramsHandler">Set</button>            
+            <h2>Marque su ubicación en el mapa</h2>
+            <br>
+            <button type="button" data-dojo-attach-event="onclick:routeHandler">Ruta</button>
+            <h2>Pulse el boton ruta y seleccione la tienda de destino</h2>
+        </form>
+    </div>
+    <!-- <div>
+        <h1>Filtro Ranking</h1>
+        <input id="filtrorankig" value="">
+        <button data-dojo-attach-event="onclick:filtro2">Filtrar</button>
+    </div>
+    <div>
+        <button data-dojo-attach-event="onclick:restau">Restaurar</button>
+    </div> -->
+</div>
