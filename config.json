@@ -22,9 +22,9 @@
   "appId": "",
   "authorizedCrossOriginDomains": [],
   "title": "Ridevelop Comercios-Rutas",
-  "subtitle": "with ArcGIS Web AppBuilder",
+  "subtitle": "",
   "keepAppState": true,
-  "logo": "images/app-logo.png",
+  "logo": "images/logo.jpeg",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
   "links": [],
   "widgetOnScreen": {
@@ -172,13 +172,13 @@
       "right": 0,
       "bottom": 0
     },
-    "itemId": "c058a26b873f43e5a02fd8eb84899316",
+    "itemId": "c41f5d41ee754cf28964a87e7d36bdfa",
     "mapOptions": {
       "extent": {
-        "xmin": -413764.9950280922,
-        "ymin": 4924375.960828361,
-        "xmax": -408337.96601985197,
-        "ymax": 4927342.672988675,
+        "xmin": -416180.0861247023,
+        "ymin": 4922973.479909887,
+        "xmax": -405861.08730621747,
+        "ymax": 4928687.147774196,
         "spatialReference": {
           "wkid": 102100
         }
@@ -363,7 +363,10 @@
   "loadingPage": {
     "backgroundColor": "#055605",
     "backgroundImage": {
-      "visible": false
+      "visible": true,
+      "uri": "configs/loading/images/background.jpeg",
+      "width": 1219,
+      "height": 540
     },
     "loadingGif": {
       "visible": true,
@@ -384,5 +387,7 @@
   "dataSource": {
     "dataSources": {},
     "settings": {}
-  }
+  },
+  "logoLink": "",
+  "logoAlt": ""
 }
